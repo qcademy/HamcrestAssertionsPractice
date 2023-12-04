@@ -16,9 +16,9 @@ The project includes a `MathOperations` and `StringUtils` classes.
 - `concatenate(String str1, String str2)`: Concatenates the strings, returns `null` if any of the input is null.
 - `splitIntoWords(String str)`: Splits sentences into an array, if input value is null, then an empty array is returned.
 - `createWordMap(String str)`: Splits sentences into a Map<String, String> where key is a word `key` + word number and value is a word 
-from the sentence, e.g.: `createWordMap("Hello World")` will result to `{ "key1": "Hello", "key2":"World" }`. If input value is null,
+from the sentence, e.g.: `createWordMap("Hello World")` will result to `{ "key1": "Hello", "key2":"World" }`. If input value is `null`,
 then an empty Map is returned.
-- `createWordCollection(String str)`: Splits sentences into collection List<String>, if input value is null, then an empty collection is returned.
+- `createWordCollection(String str)`: Splits sentences into collection List<String>, if input value is `null`, then an empty collection is returned.
 
 ## The Purpose
 The purpose of this project is to practice with [Hamcrest](https://hamcrest.org/JavaHamcrest/index) assertions. Your goal is 
