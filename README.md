@@ -46,8 +46,8 @@ focus on small, specific parts of the codebase.
 1. Clone this repository:
 
    ```bash
-   git clone git@github.com:qcademy/JunitAssertionsPractice.git
-   cd JunitAssertionsPractice
+   git clone git@github.com:qcademy/HamcrestAssertionsPractice.git
+   cd HamcrestAssertionsPractice
    ```
 2. Run tests with build tool [gradle](https://gradle.org/):
     ```bash
